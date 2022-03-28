@@ -1,4 +1,5 @@
 package com.xiaoran.elasticsearch.demo;
+import com.xiaoran.elasticsearch.demo.mapper.ProductDao;
 import com.xiaoran.elasticsearch.demo.model.Product;
 import org.junit.Test;
 import org.junit.runner.RunWith;

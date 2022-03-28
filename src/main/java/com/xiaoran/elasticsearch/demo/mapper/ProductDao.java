@@ -1,4 +1,4 @@
-package com.xiaoran.elasticsearch.demo;
+package com.xiaoran.elasticsearch.demo.mapper;
 
 import com.xiaoran.elasticsearch.demo.model.Product;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;

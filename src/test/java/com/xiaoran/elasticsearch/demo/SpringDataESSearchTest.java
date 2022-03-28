@@ -1,5 +1,6 @@
 package com.xiaoran.elasticsearch.demo;
 
+import com.xiaoran.elasticsearch.demo.mapper.ProductDao;
 import com.xiaoran.elasticsearch.demo.model.Product;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.TermQueryBuilder;

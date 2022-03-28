@@ -1,14 +1,12 @@
 package com.xiaoran.elasticsearch.demo;
 
-import org.apache.http.HttpHost;
-import org.elasticsearch.client.RestClient;
-import org.elasticsearch.client.RestClientBuilder;
-import org.elasticsearch.client.RestHighLevelClient;
+
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import java.io.IOException;
 
+@MapperScan("com.xiaoran.elasticsearch.demo.mapper")
 @SpringBootApplication
 public class ElasticsearchDemoApplication {
 
